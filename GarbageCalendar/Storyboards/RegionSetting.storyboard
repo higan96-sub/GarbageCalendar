@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mp8-4n-aMg">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Region Setting View Controller-->
+        <scene sceneID="bMX-cr-Iqn">
+            <objects>
+                <viewController id="Mp8-4n-aMg" customClass="RegionSettingViewController" customModule="GarbageCalendar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="egj-gH-Kft">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NkH-XY-jwa">
+                                <rect key="frame" x="16" y="36" width="77" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="C3W-EP-PDN"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="77" id="xHW-xr-uWo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <inset key="contentEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="すべて">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didSelectAreaButtonTapped:" destination="Mp8-4n-aMg" eventType="touchUpInside" id="mkN-s4-z67"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2m-tU-1hN">
+                                <rect key="frame" x="101" y="36" width="258" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" priority="750" constant="203" id="Ggs-2H-onz"/>
+                                    <constraint firstAttribute="height" constant="40" id="gM7-um-kzl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <inset key="contentEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="地域を選択してください">
+                                    <color key="titleColor" red="0.81334716080000002" green="0.42588138580000001" blue="0.29407703880000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="didSelectRegionButtonTapped:" destination="Mp8-4n-aMg" eventType="touchUpInside" id="GjO-lp-xU4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NkH-XY-jwa" firstAttribute="leading" secondItem="acd-l2-UqC" secondAttribute="leading" constant="16" id="8rz-Q8-SAU"/>
+                            <constraint firstItem="NkH-XY-jwa" firstAttribute="top" secondItem="acd-l2-UqC" secondAttribute="top" constant="16" id="IQv-jh-HO8"/>
+                            <constraint firstItem="acd-l2-UqC" firstAttribute="trailing" secondItem="U2m-tU-1hN" secondAttribute="trailing" constant="16" id="TWU-PJ-Upi"/>
+                            <constraint firstItem="U2m-tU-1hN" firstAttribute="centerY" secondItem="NkH-XY-jwa" secondAttribute="centerY" id="cny-We-hMo"/>
+                            <constraint firstItem="U2m-tU-1hN" firstAttribute="leading" secondItem="NkH-XY-jwa" secondAttribute="trailing" constant="8" id="yh8-xy-TCj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="acd-l2-UqC"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem systemItem="flexibleSpace" id="R4a-ZM-Jn6"/>
+                        <barButtonItem style="done" systemItem="save" id="UHY-hA-H8K">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="didUpdateButtonTapped:" destination="Mp8-4n-aMg" id="aFt-rg-BRY"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem systemItem="flexibleSpace" id="aiL-Ok-DT9"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="l37-c0-NL5">
+                        <barButtonItem key="rightBarButtonItem" systemItem="cancel" id="rmv-EU-QCV">
+                            <connections>
+                                <action selector="didCancelButtonTapped:" destination="Mp8-4n-aMg" id="3yM-dv-juz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="selectAreaButton" destination="NkH-XY-jwa" id="mso-7Y-j6R"/>
+                        <outlet property="selectRegionButton" destination="U2m-tU-1hN" id="PD7-x6-rA4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8c5-Je-REM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="71" y="197"/>
+        </scene>
+    </scenes>
+</document>

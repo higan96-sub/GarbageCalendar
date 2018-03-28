@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DQB-LI-7FJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Alarm List View Controller-->
+        <scene sceneID="zIB-Tc-9iK">
+            <objects>
+                <viewController id="DQB-LI-7FJ" customClass="AlarmListViewController" customModule="GarbageCalendar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pTR-gb-qld">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="kEL-gf-ZfB">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="65U-SM-n0a">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="アラーム機能の有効化" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAh-pw-2YR">
+                                            <rect key="frame" x="16" y="19.5" width="286" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="lessThanOrEqual" priority="750" constant="286" id="8VH-U1-GfS"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ll1-zI-5Of">
+                                            <rect key="frame" x="310" y="14.5" width="51" height="31"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="49" id="bjm-YJ-FMH"/>
+                                            </constraints>
+                                            <color key="onTintColor" red="0.81334716080000002" green="0.42588138580000001" blue="0.29407703880000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <action selector="onAllAlarmSettinSwitchTapped:" destination="DQB-LI-7FJ" eventType="valueChanged" id="O1M-bO-8JO"/>
+                                            </connections>
+                                        </switch>
+                                    </subviews>
+                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="Ll1-zI-5Of" firstAttribute="centerY" secondItem="65U-SM-n0a" secondAttribute="centerY" id="8le-XO-bQF"/>
+                                        <constraint firstAttribute="trailing" secondItem="Ll1-zI-5Of" secondAttribute="trailing" constant="16" id="FZZ-Ar-Fyt"/>
+                                        <constraint firstItem="Ll1-zI-5Of" firstAttribute="leading" secondItem="cAh-pw-2YR" secondAttribute="trailing" constant="8" id="NHY-8Q-CA8"/>
+                                        <constraint firstItem="cAh-pw-2YR" firstAttribute="centerY" secondItem="65U-SM-n0a" secondAttribute="centerY" id="aKs-iD-RDU"/>
+                                        <constraint firstItem="cAh-pw-2YR" firstAttribute="leading" secondItem="65U-SM-n0a" secondAttribute="leading" constant="16" id="cGf-8c-2cC"/>
+                                    </constraints>
+                                </view>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="arb-aV-uw5">
+                                    <rect key="frame" x="0.0" y="60" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                                <connections>
+                                    <outlet property="dataSource" destination="DQB-LI-7FJ" id="riu-mL-NTi"/>
+                                    <outlet property="delegate" destination="DQB-LI-7FJ" id="8dZ-2g-UKX"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kEL-gf-ZfB" firstAttribute="leading" secondItem="1nJ-2W-Lwl" secondAttribute="leading" id="CC8-DT-r9l"/>
+                            <constraint firstItem="kEL-gf-ZfB" firstAttribute="trailing" secondItem="1nJ-2W-Lwl" secondAttribute="trailing" id="EP9-QG-xBF"/>
+                            <constraint firstItem="kEL-gf-ZfB" firstAttribute="top" secondItem="pTR-gb-qld" secondAttribute="top" id="cM3-sE-LhT"/>
+                            <constraint firstAttribute="bottom" secondItem="kEL-gf-ZfB" secondAttribute="bottom" id="f9Q-ac-pwr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1nJ-2W-Lwl"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="UQ6-IA-Tm9"/>
+                        <barButtonItem title="アラームを追加" id="20i-Xl-rww">
+                            <color key="tintColor" red="0.81334716080000002" green="0.42588138580000001" blue="0.29407703880000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <action selector="didAddButtonTapped:" destination="DQB-LI-7FJ" id="n92-ys-RDe"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="GCp-nZ-n3I"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="hnN-ve-JSX">
+                        <barButtonItem key="rightBarButtonItem" systemItem="stop" id="NjD-Wu-Qfp">
+                            <connections>
+                                <action selector="didCancelButtonTapped:" destination="DQB-LI-7FJ" id="olL-Z6-Nj0"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="alarmSwitch" destination="Ll1-zI-5Of" id="fv3-Z1-T1R"/>
+                        <outlet property="tableView" destination="kEL-gf-ZfB" id="qk1-BP-rxJ"/>
+                        <segue destination="U3i-XH-phY" kind="show" identifier="showAlarmEdit" id="ala-BX-0WS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wX6-ok-csC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="293.60000000000002" y="411.544227886057"/>
+        </scene>
+        <!--AlarmEdit-->
+        <scene sceneID="AQQ-tV-56W">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AlarmEdit" id="U3i-XH-phY" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GwF-Q3-6aI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="910" y="412"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Garbage View Controller-->
+        <scene sceneID="QRR-C6-avD">
+            <objects>
+                <viewController storyboardIdentifier="GarbageViewController" hidesBottomBarWhenPushed="YES" id="rl9-mY-AkO" customClass="GarbageViewController" customModule="GarbageCalendar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bME-xd-ArA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1cb-cH-VIw">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="4UK-Qh-jh9">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="132"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_can" translatesAutoresizingMaskIntoConstraints="NO" id="Gt3-G6-HWy">
+                                            <rect key="frame" x="0.0" y="16" width="375" height="100"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="Gt3-G6-HWy" secondAttribute="bottom" constant="16" id="ShF-du-LZO"/>
+                                        <constraint firstItem="Gt3-G6-HWy" firstAttribute="leading" secondItem="4UK-Qh-jh9" secondAttribute="leading" id="SqZ-90-W6J"/>
+                                        <constraint firstItem="Gt3-G6-HWy" firstAttribute="top" secondItem="4UK-Qh-jh9" secondAttribute="top" constant="16" id="TAB-Zd-vyA"/>
+                                        <constraint firstAttribute="trailing" secondItem="Gt3-G6-HWy" secondAttribute="trailing" id="Xzh-6j-BuT"/>
+                                    </constraints>
+                                </view>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LabelCell" rowHeight="125" id="Q8R-uO-Pv2" customClass="LabelCell" customModule="GarbageCalendar" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="160" width="375" height="125"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Q8R-uO-Pv2" id="j4Y-4z-miC">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="124.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="rl9-mY-AkO" id="UZ5-lh-1Rd"/>
+                                    <outlet property="delegate" destination="rl9-mY-AkO" id="fya-ZM-hVh"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NfM-4f-jQ3" firstAttribute="trailing" secondItem="1cb-cH-VIw" secondAttribute="trailing" id="3UP-X2-2QJ"/>
+                            <constraint firstItem="1cb-cH-VIw" firstAttribute="top" secondItem="bME-xd-ArA" secondAttribute="top" id="Ngj-oN-MBg"/>
+                            <constraint firstItem="NfM-4f-jQ3" firstAttribute="bottom" secondItem="1cb-cH-VIw" secondAttribute="bottom" id="fOn-Sg-Lcm"/>
+                            <constraint firstItem="1cb-cH-VIw" firstAttribute="leading" secondItem="NfM-4f-jQ3" secondAttribute="leading" id="uQ5-bK-QRZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NfM-4f-jQ3"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Gt3-G6-HWy" id="qvo-hx-nKg"/>
+                        <outlet property="tableView" destination="1cb-cH-VIw" id="U5Y-HD-QiK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fdk-RZ-NuS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="248.80000000000001" y="121.88905547226388"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_can" width="300" height="300"/>
+    </resources>
+</document>

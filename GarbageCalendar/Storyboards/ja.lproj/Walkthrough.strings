@@ -1,0 +1,27 @@
+
+/* Class = "UIButton"; normalTitle = "地域を選択してください"; ObjectID = "4V8-UI-BMz"; */
+"4V8-UI-BMz.normalTitle" = "地域を選択してください";
+
+/* Class = "UILabel"; text = "藤沢市ゴミ分別アプリ"; ObjectID = "7GU-sc-m8W"; */
+"7GU-sc-m8W.text" = "藤沢市ゴミ分別アプリ";
+
+/* Class = "UILabel"; text = "アラームを設定すると各ごみ収集日の1日前と当日に、収集するゴミをお知らせします。"; ObjectID = "Hgq-hh-OMs"; */
+"Hgq-hh-OMs.text" = "アラームを設定すると各ごみ収集日の1日前と当日に、収集するゴミをお知らせします。";
+
+/* Class = "UILabel"; text = "これらの設定は後からでも変えられます"; ObjectID = "NqG-dN-eg4"; */
+"NqG-dN-eg4.text" = "これらの設定は後からでも変えられます";
+
+/* Class = "UIBarButtonItem"; title = "地域を設定してください"; ObjectID = "UWu-C2-zfn"; */
+"UWu-C2-zfn.title" = "地域を設定してください";
+
+/* Class = "UIButton"; normalTitle = "収集日1日前のアラーム"; ObjectID = "Zb7-VU-Rdl"; */
+"Zb7-VU-Rdl.normalTitle" = "収集日1日前のアラーム";
+
+/* Class = "UILabel"; text = "地域を設定"; ObjectID = "dvM-bf-FPn"; */
+"dvM-bf-FPn.text" = "地域を設定";
+
+/* Class = "UIButton"; normalTitle = "収集日当日のアラーム"; ObjectID = "eKe-AB-L18"; */
+"eKe-AB-L18.normalTitle" = "収集日当日のアラーム";
+
+/* Class = "UILabel"; text = "アラーム設定"; ObjectID = "qRc-pl-tMQ"; */
+"qRc-pl-tMQ.text" = "アラーム設定";

@@ -1,0 +1,459 @@
+{
+  "garbageDayTypes": [
+    "燃えるごみ",
+    "プラスチック製容器包装",
+    "資源ごみ",
+    "燃えないごみ（埋立）",
+    "粗大ごみ"
+  ],
+  "version": "1.0",
+  "id": 222208,
+  "name": "裾野市",
+  "areas": [
+    {
+      "id": 0,
+      "name": "西地区",
+      "municipalityId": 222208,
+      "regions": [
+        {
+          "id": 0,
+          "name": "石脇",
+          "areaId": 0
+        },
+        {
+          "id": 1,
+          "name": "佐野上宿",
+          "areaId": 0
+        },
+        {
+          "id": 2,
+          "name": "佐野本宿",
+          "areaId": 0
+        },
+        {
+          "id": 3,
+          "name": "佐野二区",
+          "areaId": 0
+        },
+        {
+          "id": 4,
+          "name": "大畑",
+          "areaId": 0
+        },
+        {
+          "id": 5,
+          "name": "上町",
+          "areaId": 0
+        },
+        {
+          "id": 6,
+          "name": "佐野若狭",
+          "areaId": 0
+        },
+        {
+          "id": 7,
+          "name": "緑町",
+          "areaId": 0
+        },
+        {
+          "id": 8,
+          "name": "佐野元町",
+          "areaId": 0
+        },
+        {
+          "id": 9,
+          "name": "二ツ屋1区",
+          "areaId": 0
+        },
+        {
+          "id": 10,
+          "name": "二ツ屋2区",
+          "areaId": 0
+        },
+        {
+          "id": 11,
+          "name": "桃園",
+          "areaId": 0
+        },
+        {
+          "id": 12,
+          "name": "富沢",
+          "areaId": 0
+        },
+        {
+          "id": 13,
+          "name": "南町",
+          "areaId": 0
+        },
+        {
+          "id": 14,
+          "name": "堰原",
+          "areaId": 0
+        },
+        {
+          "id": 15,
+          "name": "伊豆島田",
+          "areaId": 0
+        },
+        {
+          "id": 16,
+          "name": "水窪",
+          "areaId": 0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "東地区",
+      "municipalityId": 222208,
+      "regions": [
+        {
+          "id": 17,
+          "name": "久根",
+          "areaId": 1
+        },
+        {
+          "id": 18,
+          "name": "三菱",
+          "areaId": 1
+        },
+        {
+          "id": 19,
+          "name": "公文名",
+          "areaId": 1
+        },
+        {
+          "id": 20,
+          "name": "中丸上",
+          "areaId": 1
+        },
+        {
+          "id": 21,
+          "name": "中丸中",
+          "areaId": 1
+        },
+        {
+          "id": 22,
+          "name": "中丸下",
+          "areaId": 1
+        },
+        {
+          "id": 23,
+          "name": "天理町",
+          "areaId": 1
+        },
+        {
+          "id": 24,
+          "name": "滝頭",
+          "areaId": 1
+        },
+        {
+          "id": 25,
+          "name": "本茶",
+          "areaId": 1
+        },
+        {
+          "id": 26,
+          "name": "道上",
+          "areaId": 1
+        },
+        {
+          "id": 27,
+          "name": "峰下市の瀬",
+          "areaId": 1
+        },
+        {
+          "id": 28,
+          "name": "鈴原",
+          "areaId": 1
+        },
+        {
+          "id": 29,
+          "name": "青葉台",
+          "areaId": 1
+        },
+        {
+          "id": 30,
+          "name": "茶畑団地",
+          "areaId": 1
+        },
+        {
+          "id": 31,
+          "name": "和泉",
+          "areaId": 1
+        },
+        {
+          "id": 32,
+          "name": "富士見台",
+          "areaId": 1
+        },
+        {
+          "id": 33,
+          "name": "麦塚",
+          "areaId": 1
+        },
+        {
+          "id": 34,
+          "name": "本村上中",
+          "areaId": 1
+        },
+        {
+          "id": 35,
+          "name": "本村下",
+          "areaId": 1
+        },
+        {
+          "id": 36,
+          "name": "新道",
+          "areaId": 1
+        },
+        {
+          "id": 37,
+          "name": "本通り",
+          "areaId": 1
+        },
+        {
+          "id": 38,
+          "name": "日の出元町",
+          "areaId": 1
+        },
+        {
+          "id": 39,
+          "name": "東町",
+          "areaId": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "深良地区",
+      "municipalityId": 222208,
+      "regions": [
+        {
+          "id": 40,
+          "name": "町震1区",
+          "areaId": 2
+        },
+        {
+          "id": 41,
+          "name": "町震2区",
+          "areaId": 2
+        },
+        {
+          "id": 42,
+          "name": "舞台団地",
+          "areaId": 2
+        },
+        {
+          "id": 43,
+          "name": "柳端団地",
+          "areaId": 2
+        },
+        {
+          "id": 44,
+          "name": "南堀",
+          "areaId": 2
+        },
+        {
+          "id": 45,
+          "name": "和市",
+          "areaId": 2
+        },
+        {
+          "id": 46,
+          "name": "遠道原",
+          "areaId": 2
+        },
+        {
+          "id": 47,
+          "name": "切久保",
+          "areaId": 2
+        },
+        {
+          "id": 48,
+          "name": "上原",
+          "areaId": 2
+        },
+        {
+          "id": 49,
+          "name": "上原団地",
+          "areaId": 2
+        },
+        {
+          "id": 50,
+          "name": "原",
+          "areaId": 2
+        },
+        {
+          "id": 51,
+          "name": "上須",
+          "areaId": 2
+        },
+        {
+          "id": 52,
+          "name": "深良新田",
+          "areaId": 2
+        },
+        {
+          "id": 53,
+          "name": "岩波",
+          "areaId": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "富岡地区",
+      "municipalityId": 222208,
+      "regions": [
+        {
+          "id": 54,
+          "name": "千福",
+          "areaId": 3
+        },
+        {
+          "id": 55,
+          "name": "千福南",
+          "areaId": 3
+        },
+        {
+          "id": 56,
+          "name": "平山",
+          "areaId": 3
+        },
+        {
+          "id": 57,
+          "name": "上谷",
+          "areaId": 3
+        },
+        {
+          "id": 58,
+          "name": "入谷",
+          "areaId": 3
+        },
+        {
+          "id": 59,
+          "name": "坂上",
+          "areaId": 3
+        },
+        {
+          "id": 60,
+          "name": "御宿新田",
+          "areaId": 3
+        },
+        {
+          "id": 61,
+          "name": "上ケ田",
+          "areaId": 3
+        },
+        {
+          "id": 62,
+          "name": "千福が丘",
+          "areaId": 3
+        },
+        {
+          "id": 63,
+          "name": "上城",
+          "areaId": 3
+        },
+        {
+          "id": 64,
+          "name": "中村",
+          "areaId": 3
+        },
+        {
+          "id": 65,
+          "name": "下条",
+          "areaId": 3
+        },
+        {
+          "id": 66,
+          "name": "田場沢",
+          "areaId": 3
+        },
+        {
+          "id": 67,
+          "name": "森脇団地",
+          "areaId": 3
+        },
+        {
+          "id": 68,
+          "name": "中里",
+          "areaId": 3
+        },
+        {
+          "id": 69,
+          "name": "金沢",
+          "areaId": 3
+        },
+        {
+          "id": 70,
+          "name": "今里",
+          "areaId": 3
+        },
+        {
+          "id": 71,
+          "name": "下和田",
+          "areaId": 3
+        },
+        {
+          "id": 72,
+          "name": "呼子",
+          "areaId": 3
+        },
+        {
+          "id": 73,
+          "name": "矢崎社宅",
+          "areaId": 3
+        },
+        {
+          "id": 74,
+          "name": "矢崎独身寮",
+          "areaId": 3
+        },
+        {
+          "id": 75,
+          "name": "御宿台（社宅、独身寮）",
+          "areaId": 3
+        },
+        {
+          "id": 76,
+          "name": "トヨタ（社宅、東富士、独身寮）",
+          "areaId": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "須山地区",
+      "municipalityId": 222208,
+      "regions": [
+        {
+          "id": 77,
+          "name": "須山1区",
+          "areaId": 4
+        },
+        {
+          "id": 78,
+          "name": "須山2区",
+          "areaId": 4
+        },
+        {
+          "id": 79,
+          "name": "須山3区",
+          "areaId": 4
+        },
+        {
+          "id": 80,
+          "name": "須山4区",
+          "areaId": 4
+        },
+        {
+          "id": 81,
+          "name": "須山6区",
+          "areaId": 4
+        }
+      ]
+    }
+  ]
+}

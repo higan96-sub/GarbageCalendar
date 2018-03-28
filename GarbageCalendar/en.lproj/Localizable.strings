@@ -1,0 +1,36 @@
+/*
+ Localizable.strings
+ GarbageCalendar
+ 
+ Created by Norihiko Oba on 2018/02/21.
+ Copyright © 2018年 Norihiko Oba. All rights reserved.
+ */
+"garbage_kind_burnable" = "Bunable garbages, Glass bottles";
+"garbage_kind_unburnable" = "Non-bunable garbages ...";
+"garbage_kind_can" = "Cans, Pots and Pans";
+"garbage_kind_petbottle" = "PET bottles";
+"garbage_kind_recycle" = "Other resources";
+"garbage_kind_plastic" = "Plastics, Cooking Oil ...";
+"garbage_kind_no_collection_day" = "No Collection";
+
+"todays_garbage" = "Today's Garbage";
+
+"next_week" = "A week later";
+"days_later" = " days later";
+"a_week_before" = "A week before";
+"days_before" = " days before";
+"today" = "Today";
+"tommorow" = "Tomorrow";
+"close" = "Close";
+"calendar" = "Calendar";
+"the_day" = "The Garbage day";
+
+"start_app" = "Start App";
+"select_region" = "Select your region";
+
+"setting-menu-kind_region" = "Your Region";
+"setting-menu-kind_alarm" = "Alarm Setting";
+"setting-menu-kind_about" = "App Info";
+
+"enabled" = "Enabled";
+"disabled" = "Disabled";

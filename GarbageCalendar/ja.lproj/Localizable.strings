@@ -1,0 +1,37 @@
+/*
+ Localizable.strings
+ GarbageCalendar
+ 
+ Created by Norihiko Oba on 2018/02/21.
+ Copyright © 2018年 Norihiko Oba. All rights reserved.
+ */
+"garbage_kind_burnable" = "燃えるゴミ・ビン";
+"garbage_kind_unburnable" = "不燃・商品プラ・本・雑がみ";
+"garbage_kind_can" = "カン・なべ類";
+"garbage_kind_petbottle" = "ペットボトル";
+"garbage_kind_recycle" = "その他資源";
+"garbage_kind_plastic" = "プラ・食品油・特定品目";
+"garbage_kind_no_collection_day" = "収集なし";
+
+"todays_garbage" = "今日のゴミ";
+
+"close" = "閉じる";
+"calendar" = "カレンダー";
+
+"start_app" = "利用を開始する";
+"select_region" = "地域を設定してください";
+
+"setting-menu-kind_region" = "地域設定";
+"setting-menu-kind_alarm" = "アラーム設定";
+"setting-menu-kind_about" = "アプリ情報";
+
+"next_week" = "来週";
+"days_later" = "日後";
+"a_week_before" = "1週間前";
+"days_before" = " 日前";
+"today" = "今日";
+"tommorow" = "明日";
+"the_day" = "当日";
+
+"enabled" = "有効";
+"disabled" = "無効";

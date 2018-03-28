@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MenuCell" customModule="GarbageCalendar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GIU-Aj-ZjW">
+                        <rect key="frame" x="16" y="11" width="144" height="22"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vxu-AI-Cp1">
+                        <rect key="frame" x="160" y="11" width="144" height="22"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Vxu-AI-Cp1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="ETY-jA-smq"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="GIU-Aj-ZjW" secondAttribute="bottom" id="FLX-kt-qCP"/>
+                    <constraint firstItem="Vxu-AI-Cp1" firstAttribute="width" secondItem="GIU-Aj-ZjW" secondAttribute="width" id="MTv-z8-k62"/>
+                    <constraint firstItem="GIU-Aj-ZjW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Qiu-IO-tmg"/>
+                    <constraint firstItem="Vxu-AI-Cp1" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="SZ2-bz-x3W"/>
+                    <constraint firstItem="GIU-Aj-ZjW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="T9J-E6-BmE"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Vxu-AI-Cp1" secondAttribute="bottom" id="ZxV-nJ-euv"/>
+                    <constraint firstItem="Vxu-AI-Cp1" firstAttribute="leading" secondItem="GIU-Aj-ZjW" secondAttribute="trailing" id="dgJ-Hc-zwQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="optionLabel" destination="GIU-Aj-ZjW" id="Kc0-pf-u9m"/>
+                <outlet property="suffixLabel" destination="Vxu-AI-Cp1" id="a3b-aJ-rus"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

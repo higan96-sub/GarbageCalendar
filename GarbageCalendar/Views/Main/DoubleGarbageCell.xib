@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="DoubleGarbageCell" rowHeight="278" id="KGk-i7-Jjw" customClass="DoubleGarbageCell" customModule="GarbageCalendar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="264" height="278"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="264" height="277.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rsr-qi-anm">
+                        <rect key="frame" x="16" y="11" width="233.5" height="233.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lcl-Eo-A0k">
+                                <rect key="frame" x="0.0" y="169.5" width="233.5" height="64"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="燃えるゴミ" textAlignment="center" lineBreakMode="tailTruncation" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="zts-O2-vZJ">
+                                        <rect key="frame" x="16" y="8" width="201.5" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="40"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="zts-O2-vZJ" firstAttribute="leading" secondItem="lcl-Eo-A0k" secondAttribute="leading" constant="16" id="QZ4-EQ-hjE"/>
+                                    <constraint firstAttribute="bottom" secondItem="zts-O2-vZJ" secondAttribute="bottom" constant="8" id="ckD-vi-skZ"/>
+                                    <constraint firstItem="zts-O2-vZJ" firstAttribute="top" secondItem="lcl-Eo-A0k" secondAttribute="top" constant="8" id="csS-4V-IUI"/>
+                                    <constraint firstAttribute="height" constant="64" id="fKU-NZ-Ki5"/>
+                                    <constraint firstAttribute="trailing" secondItem="zts-O2-vZJ" secondAttribute="trailing" constant="16" id="j2j-Li-JPV"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5GU-Bx-9Ig">
+                                <rect key="frame" x="8" y="8" width="109" height="157.5"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mQw-OV-17f" customClass="GarbageImageView" customModule="GarbageCalendar" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="8" width="93" height="141.5"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="mQw-OV-17f" firstAttribute="leading" secondItem="5GU-Bx-9Ig" secondAttribute="leading" constant="8" id="2yl-zd-OOx"/>
+                                    <constraint firstItem="mQw-OV-17f" firstAttribute="top" secondItem="5GU-Bx-9Ig" secondAttribute="top" constant="8" id="AeS-c8-d6g"/>
+                                    <constraint firstAttribute="bottom" secondItem="mQw-OV-17f" secondAttribute="bottom" constant="8" id="Y4G-9F-5Z4"/>
+                                    <constraint firstAttribute="trailing" secondItem="mQw-OV-17f" secondAttribute="trailing" constant="8" id="fts-dU-Gh4"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m59-vC-DWE">
+                                <rect key="frame" x="117" y="8" width="108.5" height="157.5"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lon-R0-rOb" customClass="GarbageImageView" customModule="GarbageCalendar" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="8" width="92.5" height="141.5"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="lon-R0-rOb" secondAttribute="bottom" constant="8" id="IVR-Lg-FzT"/>
+                                    <constraint firstAttribute="trailing" secondItem="lon-R0-rOb" secondAttribute="trailing" constant="8" id="Q39-Ly-qI7"/>
+                                    <constraint firstItem="lon-R0-rOb" firstAttribute="leading" secondItem="m59-vC-DWE" secondAttribute="leading" constant="8" id="R1l-oR-V3j"/>
+                                    <constraint firstItem="lon-R0-rOb" firstAttribute="top" secondItem="m59-vC-DWE" secondAttribute="top" constant="8" id="ghw-sI-M8J"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="m59-vC-DWE" firstAttribute="top" secondItem="rsr-qi-anm" secondAttribute="top" constant="8" id="C4z-gZ-dj6"/>
+                            <constraint firstItem="m59-vC-DWE" firstAttribute="width" secondItem="5GU-Bx-9Ig" secondAttribute="width" id="CJZ-Nz-hXy"/>
+                            <constraint firstItem="5GU-Bx-9Ig" firstAttribute="leading" secondItem="rsr-qi-anm" secondAttribute="leading" constant="8" id="DBx-Dt-zDy"/>
+                            <constraint firstAttribute="bottom" secondItem="lcl-Eo-A0k" secondAttribute="bottom" id="O7D-lv-bvc"/>
+                            <constraint firstAttribute="width" secondItem="rsr-qi-anm" secondAttribute="height" multiplier="1:1" id="SRK-Ia-YzF"/>
+                            <constraint firstItem="lcl-Eo-A0k" firstAttribute="top" secondItem="m59-vC-DWE" secondAttribute="bottom" constant="4" id="ZLs-Mr-Mt8"/>
+                            <constraint firstAttribute="trailing" secondItem="m59-vC-DWE" secondAttribute="trailing" constant="8" id="e94-iT-LAM"/>
+                            <constraint firstItem="5GU-Bx-9Ig" firstAttribute="top" secondItem="rsr-qi-anm" secondAttribute="top" constant="8" id="fs8-aM-ELx"/>
+                            <constraint firstItem="m59-vC-DWE" firstAttribute="leading" secondItem="5GU-Bx-9Ig" secondAttribute="trailing" id="jDd-YO-Zfk"/>
+                            <constraint firstItem="lcl-Eo-A0k" firstAttribute="top" secondItem="5GU-Bx-9Ig" secondAttribute="bottom" constant="4" id="l0J-15-P5n"/>
+                            <constraint firstAttribute="trailing" secondItem="lcl-Eo-A0k" secondAttribute="trailing" id="sug-ad-7Ul"/>
+                            <constraint firstItem="lcl-Eo-A0k" firstAttribute="leading" secondItem="rsr-qi-anm" secondAttribute="leading" id="zLv-Ey-xg5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="rsr-qi-anm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="03J-gL-s3y"/>
+                    <constraint firstItem="rsr-qi-anm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="GE5-KB-QnY"/>
+                    <constraint firstItem="rsr-qi-anm" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="GG9-Rk-ysE"/>
+                    <constraint firstItem="rsr-qi-anm" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="uVe-Dh-IHJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bgBottomView" destination="lcl-Eo-A0k" id="2pL-d3-Bse"/>
+                <outlet property="bgView" destination="rsr-qi-anm" id="QgD-cT-Owq"/>
+                <outlet property="garbageNameLabel" destination="zts-O2-vZJ" id="Cp5-VO-tFb"/>
+                <outlet property="leftImageBgView" destination="5GU-Bx-9Ig" id="wsN-Vu-Juo"/>
+                <outlet property="leftImageView" destination="mQw-OV-17f" id="Am8-8P-WMn"/>
+                <outlet property="rightImageBgView" destination="m59-vC-DWE" id="zdN-fR-5D0"/>
+                <outlet property="rightImageView" destination="lon-R0-rOb" id="C8z-s4-Pth"/>
+            </connections>
+            <point key="canvasLocation" x="-33" y="-24"/>
+        </tableViewCell>
+    </objects>
+</document>

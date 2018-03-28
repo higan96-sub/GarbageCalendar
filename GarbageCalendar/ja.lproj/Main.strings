@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Notification of the day"; ObjectID = "3t7-Uj-qT8"; */
+"3t7-Uj-qT8.text" = "収集日のアラーム";
+
+/* Class = "UITableViewSection"; headerTitle = "Set Notification Time"; ObjectID = "Qrd-vv-Kbz"; */
+"Qrd-vv-Kbz.headerTitle" = "アラーム時刻の設定";
+
+///* Class = "UILabel"; text = "9:00"; ObjectID = "TzQ-ed-Cdx"; */
+//"TzQ-ed-Cdx.text" = "9:00";
+//
+///* Class = "UILabel"; text = "21:00"; ObjectID = "fHF-Js-EOT"; */
+//"fHF-Js-EOT.text" = "21:00";
+
+/* Class = "UIBarButtonItem"; title = "Calendar"; ObjectID = "o5a-2Y-KJt"; */
+"o5a-2Y-KJt.title" = "カレンダー";
+
+/* Class = "UILabel"; text = "Notification of the day before"; ObjectID = "x8U-HX-5f9"; */
+"x8U-HX-5f9.text" = "収集日1日前のアラーム";

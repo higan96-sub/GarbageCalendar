@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="SingleGarbageCell" rowHeight="406" id="KGk-i7-Jjw" customClass="SingleGarbageCell" customModule="GarbageCalendar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="419" height="406"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="419" height="405.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZu-VA-eoN">
+                        <rect key="frame" x="16" y="11" width="392" height="392"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hwP-e4-Fs0">
+                                <rect key="frame" x="0.0" y="328" width="392" height="64"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="可燃ごみ・ビン" textAlignment="center" lineBreakMode="tailTruncation" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="EyW-uS-4p8">
+                                        <rect key="frame" x="16" y="8" width="360" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.81334716080000002" green="0.42588138580000001" blue="0.29407703880000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="EyW-uS-4p8" secondAttribute="bottom" constant="8" id="0DE-eW-gEm"/>
+                                    <constraint firstItem="EyW-uS-4p8" firstAttribute="leading" secondItem="hwP-e4-Fs0" secondAttribute="leading" constant="16" id="XdC-1x-0AJ"/>
+                                    <constraint firstItem="EyW-uS-4p8" firstAttribute="top" secondItem="hwP-e4-Fs0" secondAttribute="top" constant="8" id="eCT-cC-4YW"/>
+                                    <constraint firstAttribute="trailing" secondItem="EyW-uS-4p8" secondAttribute="trailing" constant="16" id="h4H-ts-urg"/>
+                                    <constraint firstAttribute="height" constant="64" id="wdI-9Q-gTY"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="maX-0I-dZf">
+                                <rect key="frame" x="8" y="8" width="376" height="316"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_pet_bottle" translatesAutoresizingMaskIntoConstraints="NO" id="Ejc-Ed-ZDC" customClass="GarbageImageView" customModule="GarbageCalendar" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="8" width="360" height="300"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Ejc-Ed-ZDC" secondAttribute="trailing" constant="8" id="Afn-3G-GFf"/>
+                                    <constraint firstItem="Ejc-Ed-ZDC" firstAttribute="leading" secondItem="maX-0I-dZf" secondAttribute="leading" constant="8" id="J8D-O2-zm8"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ejc-Ed-ZDC" secondAttribute="bottom" constant="8" id="Jqf-L0-tza"/>
+                                    <constraint firstItem="Ejc-Ed-ZDC" firstAttribute="top" secondItem="maX-0I-dZf" secondAttribute="top" constant="8" id="Wrg-rB-CCB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="maX-0I-dZf" secondAttribute="trailing" constant="8" id="C2O-mw-tZd"/>
+                            <constraint firstItem="hwP-e4-Fs0" firstAttribute="top" secondItem="maX-0I-dZf" secondAttribute="bottom" constant="4" id="D8J-q5-Mi6"/>
+                            <constraint firstAttribute="trailing" secondItem="hwP-e4-Fs0" secondAttribute="trailing" id="Kyb-KT-QTv"/>
+                            <constraint firstItem="maX-0I-dZf" firstAttribute="leading" secondItem="bZu-VA-eoN" secondAttribute="leading" constant="8" id="Ovd-GQ-vyh"/>
+                            <constraint firstItem="maX-0I-dZf" firstAttribute="top" secondItem="bZu-VA-eoN" secondAttribute="top" constant="8" id="U3v-4M-Pfl"/>
+                            <constraint firstAttribute="bottom" secondItem="hwP-e4-Fs0" secondAttribute="bottom" id="bHH-ey-ihl"/>
+                            <constraint firstItem="maX-0I-dZf" firstAttribute="leading" secondItem="bZu-VA-eoN" secondAttribute="leading" constant="8" id="dSH-WE-Jp2"/>
+                            <constraint firstItem="hwP-e4-Fs0" firstAttribute="leading" secondItem="bZu-VA-eoN" secondAttribute="leading" id="dkp-aa-OKF"/>
+                            <constraint firstAttribute="trailing" secondItem="maX-0I-dZf" secondAttribute="trailing" constant="8" id="mdL-aC-eEl"/>
+                            <constraint firstItem="maX-0I-dZf" firstAttribute="top" secondItem="bZu-VA-eoN" secondAttribute="top" constant="8" id="vvQ-DC-PHH"/>
+                            <constraint firstAttribute="width" secondItem="bZu-VA-eoN" secondAttribute="height" multiplier="1:1" id="zOi-od-SW2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="bZu-VA-eoN" secondAttribute="trailing" id="DDL-iQ-BTN"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="bZu-VA-eoN" secondAttribute="bottom" constant="4" id="lZl-ix-0y5"/>
+                    <constraint firstItem="bZu-VA-eoN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="oKu-ut-Qfh"/>
+                    <constraint firstItem="bZu-VA-eoN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="p5g-i7-7VH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="bgBottomView" destination="hwP-e4-Fs0" id="2Oe-35-Nj6"/>
+                <outlet property="bgView" destination="bZu-VA-eoN" id="GtQ-RZ-T0D"/>
+                <outlet property="garbageImageView" destination="Ejc-Ed-ZDC" id="2wX-Ze-tB5"/>
+                <outlet property="garbageNameLabel" destination="EyW-uS-4p8" id="aCE-eU-CGW"/>
+                <outlet property="imageBgView" destination="maX-0I-dZf" id="Iii-1l-bCM"/>
+            </connections>
+            <point key="canvasLocation" x="-480.5" y="-23"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_pet_bottle" width="300" height="300"/>
+    </resources>
+</document>

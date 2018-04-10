@@ -1,3 +1,6 @@
+# update
+- 2018-03-28 : 他のモジュール（GarbageDateModel, GarbageDatePresenterなど）が含まれないディレクトリ以下をリポジトリに上げていたので、他のモジュールについても追加で公開
+
 # How to Build
 ```
 $ git clone https://github.com/higan96/GarbageCalendar

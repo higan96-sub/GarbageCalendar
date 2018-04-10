@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         DropDown.appearance().backgroundColor = UIColor.white
         DropDown.appearance().selectionBackgroundColor = UIColor.lightGray
         DropDown.appearance().cellHeight = 56
-//        UserDefaults.standard.removeObject(forKey: "debug-my_region")
+        UserDefaults.standard.removeObject(forKey: "debug-my_region")
         
         return true
     }

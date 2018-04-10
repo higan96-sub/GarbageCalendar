@@ -1,4 +1,7 @@
 {
+  "id": 1,
+  "version": "1.0",
+  "name": "藤沢市",
   "garbageDayTypes": [
     "燃えるごみ",
     "プラスチック製容器包装",
@@ -6,452 +9,574 @@
     "燃えないごみ（埋立）",
     "粗大ごみ"
   ],
-  "version": "1.0",
-  "id": 222208,
-  "name": "裾野市",
   "areas": [
     {
       "id": 0,
-      "name": "西地区",
-      "municipalityId": 222208,
+      "municipalityId": 1,
+      "name": "エリア0",
       "regions": [
         {
           "id": 0,
-          "name": "石脇",
-          "areaId": 0
+          "areaId": 0,
+          "name": "ブロック0"
         },
         {
           "id": 1,
-          "name": "佐野上宿",
-          "areaId": 0
+          "areaId": 0,
+          "name": "ブロック1"
         },
         {
           "id": 2,
-          "name": "佐野本宿",
-          "areaId": 0
+          "areaId": 0,
+          "name": "ブロック2"
         },
         {
           "id": 3,
-          "name": "佐野二区",
-          "areaId": 0
+          "areaId": 0,
+          "name": "ブロック3"
         },
         {
           "id": 4,
-          "name": "大畑",
-          "areaId": 0
+          "areaId": 0,
+          "name": "ブロック4"
         },
         {
           "id": 5,
-          "name": "上町",
-          "areaId": 0
+          "areaId": 0,
+          "name": "ブロック5"
         },
         {
           "id": 6,
-          "name": "佐野若狭",
-          "areaId": 0
+          "areaId": 0,
+          "name": "ブロック6"
         },
         {
           "id": 7,
-          "name": "緑町",
-          "areaId": 0
+          "areaId": 0,
+          "name": "ブロック7"
         },
         {
           "id": 8,
-          "name": "佐野元町",
-          "areaId": 0
+          "areaId": 0,
+          "name": "ブロック8"
         },
         {
           "id": 9,
-          "name": "二ツ屋1区",
-          "areaId": 0
-        },
-        {
-          "id": 10,
-          "name": "二ツ屋2区",
-          "areaId": 0
-        },
-        {
-          "id": 11,
-          "name": "桃園",
-          "areaId": 0
-        },
-        {
-          "id": 12,
-          "name": "富沢",
-          "areaId": 0
-        },
-        {
-          "id": 13,
-          "name": "南町",
-          "areaId": 0
-        },
-        {
-          "id": 14,
-          "name": "堰原",
-          "areaId": 0
-        },
-        {
-          "id": 15,
-          "name": "伊豆島田",
-          "areaId": 0
-        },
-        {
-          "id": 16,
-          "name": "水窪",
-          "areaId": 0
+          "areaId": 0,
+          "name": "ブロック9"
         }
       ]
     },
     {
       "id": 1,
-      "name": "東地区",
-      "municipalityId": 222208,
+      "municipalityId": 1,
+      "name": "エリア1",
       "regions": [
         {
+          "id": 10,
+          "areaId": 1,
+          "name": "ブロック10"
+        },
+        {
+          "id": 11,
+          "areaId": 1,
+          "name": "ブロック11"
+        },
+        {
+          "id": 12,
+          "areaId": 1,
+          "name": "ブロック12"
+        },
+        {
+          "id": 13,
+          "areaId": 1,
+          "name": "ブロック13"
+        },
+        {
+          "id": 14,
+          "areaId": 1,
+          "name": "ブロック14"
+        },
+        {
+          "id": 15,
+          "areaId": 1,
+          "name": "ブロック15"
+        },
+        {
+          "id": 16,
+          "areaId": 1,
+          "name": "ブロック16"
+        },
+        {
           "id": 17,
-          "name": "久根",
-          "areaId": 1
+          "areaId": 1,
+          "name": "ブロック17"
         },
         {
           "id": 18,
-          "name": "三菱",
-          "areaId": 1
+          "areaId": 1,
+          "name": "ブロック18"
         },
         {
           "id": 19,
-          "name": "公文名",
-          "areaId": 1
-        },
-        {
-          "id": 20,
-          "name": "中丸上",
-          "areaId": 1
-        },
-        {
-          "id": 21,
-          "name": "中丸中",
-          "areaId": 1
-        },
-        {
-          "id": 22,
-          "name": "中丸下",
-          "areaId": 1
-        },
-        {
-          "id": 23,
-          "name": "天理町",
-          "areaId": 1
-        },
-        {
-          "id": 24,
-          "name": "滝頭",
-          "areaId": 1
-        },
-        {
-          "id": 25,
-          "name": "本茶",
-          "areaId": 1
-        },
-        {
-          "id": 26,
-          "name": "道上",
-          "areaId": 1
-        },
-        {
-          "id": 27,
-          "name": "峰下市の瀬",
-          "areaId": 1
-        },
-        {
-          "id": 28,
-          "name": "鈴原",
-          "areaId": 1
-        },
-        {
-          "id": 29,
-          "name": "青葉台",
-          "areaId": 1
-        },
-        {
-          "id": 30,
-          "name": "茶畑団地",
-          "areaId": 1
-        },
-        {
-          "id": 31,
-          "name": "和泉",
-          "areaId": 1
-        },
-        {
-          "id": 32,
-          "name": "富士見台",
-          "areaId": 1
-        },
-        {
-          "id": 33,
-          "name": "麦塚",
-          "areaId": 1
-        },
-        {
-          "id": 34,
-          "name": "本村上中",
-          "areaId": 1
-        },
-        {
-          "id": 35,
-          "name": "本村下",
-          "areaId": 1
-        },
-        {
-          "id": 36,
-          "name": "新道",
-          "areaId": 1
-        },
-        {
-          "id": 37,
-          "name": "本通り",
-          "areaId": 1
-        },
-        {
-          "id": 38,
-          "name": "日の出元町",
-          "areaId": 1
-        },
-        {
-          "id": 39,
-          "name": "東町",
-          "areaId": 1
+          "areaId": 1,
+          "name": "ブロック19"
         }
       ]
     },
     {
       "id": 2,
-      "name": "深良地区",
-      "municipalityId": 222208,
+      "municipalityId": 1,
+      "name": "エリア2",
       "regions": [
         {
-          "id": 40,
-          "name": "町震1区",
-          "areaId": 2
+          "id": 20,
+          "areaId": 2,
+          "name": "ブロック20"
         },
         {
-          "id": 41,
-          "name": "町震2区",
-          "areaId": 2
+          "id": 21,
+          "areaId": 2,
+          "name": "ブロック21"
         },
         {
-          "id": 42,
-          "name": "舞台団地",
-          "areaId": 2
+          "id": 22,
+          "areaId": 2,
+          "name": "ブロック22"
         },
         {
-          "id": 43,
-          "name": "柳端団地",
-          "areaId": 2
+          "id": 23,
+          "areaId": 2,
+          "name": "ブロック23"
         },
         {
-          "id": 44,
-          "name": "南堀",
-          "areaId": 2
+          "id": 24,
+          "areaId": 2,
+          "name": "ブロック24"
         },
         {
-          "id": 45,
-          "name": "和市",
-          "areaId": 2
+          "id": 25,
+          "areaId": 2,
+          "name": "ブロック25"
         },
         {
-          "id": 46,
-          "name": "遠道原",
-          "areaId": 2
+          "id": 26,
+          "areaId": 2,
+          "name": "ブロック26"
         },
         {
-          "id": 47,
-          "name": "切久保",
-          "areaId": 2
+          "id": 27,
+          "areaId": 2,
+          "name": "ブロック27"
         },
         {
-          "id": 48,
-          "name": "上原",
-          "areaId": 2
+          "id": 28,
+          "areaId": 2,
+          "name": "ブロック28"
         },
         {
-          "id": 49,
-          "name": "上原団地",
-          "areaId": 2
-        },
-        {
-          "id": 50,
-          "name": "原",
-          "areaId": 2
-        },
-        {
-          "id": 51,
-          "name": "上須",
-          "areaId": 2
-        },
-        {
-          "id": 52,
-          "name": "深良新田",
-          "areaId": 2
-        },
-        {
-          "id": 53,
-          "name": "岩波",
-          "areaId": 2
+          "id": 29,
+          "areaId": 2,
+          "name": "ブロック29"
         }
       ]
     },
     {
       "id": 3,
-      "name": "富岡地区",
-      "municipalityId": 222208,
+      "municipalityId": 1,
+      "name": "エリア3",
       "regions": [
         {
-          "id": 54,
-          "name": "千福",
-          "areaId": 3
+          "id": 30,
+          "areaId": 3,
+          "name": "ブロック30"
         },
         {
-          "id": 55,
-          "name": "千福南",
-          "areaId": 3
+          "id": 31,
+          "areaId": 3,
+          "name": "ブロック31"
         },
         {
-          "id": 56,
-          "name": "平山",
-          "areaId": 3
+          "id": 32,
+          "areaId": 3,
+          "name": "ブロック32"
         },
         {
-          "id": 57,
-          "name": "上谷",
-          "areaId": 3
+          "id": 33,
+          "areaId": 3,
+          "name": "ブロック33"
         },
         {
-          "id": 58,
-          "name": "入谷",
-          "areaId": 3
+          "id": 34,
+          "areaId": 3,
+          "name": "ブロック34"
         },
         {
-          "id": 59,
-          "name": "坂上",
-          "areaId": 3
+          "id": 35,
+          "areaId": 3,
+          "name": "ブロック35"
         },
         {
-          "id": 60,
-          "name": "御宿新田",
-          "areaId": 3
+          "id": 36,
+          "areaId": 3,
+          "name": "ブロック36"
         },
         {
-          "id": 61,
-          "name": "上ケ田",
-          "areaId": 3
+          "id": 37,
+          "areaId": 3,
+          "name": "ブロック37"
         },
         {
-          "id": 62,
-          "name": "千福が丘",
-          "areaId": 3
+          "id": 38,
+          "areaId": 3,
+          "name": "ブロック38"
         },
         {
-          "id": 63,
-          "name": "上城",
-          "areaId": 3
-        },
-        {
-          "id": 64,
-          "name": "中村",
-          "areaId": 3
-        },
-        {
-          "id": 65,
-          "name": "下条",
-          "areaId": 3
-        },
-        {
-          "id": 66,
-          "name": "田場沢",
-          "areaId": 3
-        },
-        {
-          "id": 67,
-          "name": "森脇団地",
-          "areaId": 3
-        },
-        {
-          "id": 68,
-          "name": "中里",
-          "areaId": 3
-        },
-        {
-          "id": 69,
-          "name": "金沢",
-          "areaId": 3
-        },
-        {
-          "id": 70,
-          "name": "今里",
-          "areaId": 3
-        },
-        {
-          "id": 71,
-          "name": "下和田",
-          "areaId": 3
-        },
-        {
-          "id": 72,
-          "name": "呼子",
-          "areaId": 3
-        },
-        {
-          "id": 73,
-          "name": "矢崎社宅",
-          "areaId": 3
-        },
-        {
-          "id": 74,
-          "name": "矢崎独身寮",
-          "areaId": 3
-        },
-        {
-          "id": 75,
-          "name": "御宿台（社宅、独身寮）",
-          "areaId": 3
-        },
-        {
-          "id": 76,
-          "name": "トヨタ（社宅、東富士、独身寮）",
-          "areaId": 3
+          "id": 39,
+          "areaId": 3,
+          "name": "ブロック39"
         }
       ]
     },
     {
       "id": 4,
-      "name": "須山地区",
-      "municipalityId": 222208,
+      "municipalityId": 1,
+      "name": "エリア4",
       "regions": [
         {
+          "id": 40,
+          "areaId": 4,
+          "name": "ブロック40"
+        },
+        {
+          "id": 41,
+          "areaId": 4,
+          "name": "ブロック41"
+        },
+        {
+          "id": 42,
+          "areaId": 4,
+          "name": "ブロック42"
+        },
+        {
+          "id": 43,
+          "areaId": 4,
+          "name": "ブロック43"
+        },
+        {
+          "id": 44,
+          "areaId": 4,
+          "name": "ブロック44"
+        },
+        {
+          "id": 45,
+          "areaId": 4,
+          "name": "ブロック45"
+        },
+        {
+          "id": 46,
+          "areaId": 4,
+          "name": "ブロック46"
+        },
+        {
+          "id": 47,
+          "areaId": 4,
+          "name": "ブロック47"
+        },
+        {
+          "id": 48,
+          "areaId": 4,
+          "name": "ブロック48"
+        },
+        {
+          "id": 49,
+          "areaId": 4,
+          "name": "ブロック49"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "municipalityId": 1,
+      "name": "エリア5",
+      "regions": [
+        {
+          "id": 50,
+          "areaId": 5,
+          "name": "ブロック50"
+        },
+        {
+          "id": 51,
+          "areaId": 5,
+          "name": "ブロック51"
+        },
+        {
+          "id": 52,
+          "areaId": 5,
+          "name": "ブロック52"
+        },
+        {
+          "id": 53,
+          "areaId": 5,
+          "name": "ブロック53"
+        },
+        {
+          "id": 54,
+          "areaId": 5,
+          "name": "ブロック54"
+        },
+        {
+          "id": 55,
+          "areaId": 5,
+          "name": "ブロック55"
+        },
+        {
+          "id": 56,
+          "areaId": 5,
+          "name": "ブロック56"
+        },
+        {
+          "id": 57,
+          "areaId": 5,
+          "name": "ブロック57"
+        },
+        {
+          "id": 58,
+          "areaId": 5,
+          "name": "ブロック58"
+        },
+        {
+          "id": 59,
+          "areaId": 5,
+          "name": "ブロック59"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "municipalityId": 1,
+      "name": "エリア6",
+      "regions": [
+        {
+          "id": 60,
+          "areaId": 6,
+          "name": "ブロック60"
+        },
+        {
+          "id": 61,
+          "areaId": 6,
+          "name": "ブロック61"
+        },
+        {
+          "id": 62,
+          "areaId": 6,
+          "name": "ブロック62"
+        },
+        {
+          "id": 63,
+          "areaId": 6,
+          "name": "ブロック63"
+        },
+        {
+          "id": 64,
+          "areaId": 6,
+          "name": "ブロック64"
+        },
+        {
+          "id": 65,
+          "areaId": 6,
+          "name": "ブロック65"
+        },
+        {
+          "id": 66,
+          "areaId": 6,
+          "name": "ブロック66"
+        },
+        {
+          "id": 67,
+          "areaId": 6,
+          "name": "ブロック67"
+        },
+        {
+          "id": 68,
+          "areaId": 6,
+          "name": "ブロック68"
+        },
+        {
+          "id": 69,
+          "areaId": 6,
+          "name": "ブロック69"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "municipalityId": 1,
+      "name": "エリア7",
+      "regions": [
+        {
+          "id": 70,
+          "areaId": 7,
+          "name": "ブロック70"
+        },
+        {
+          "id": 71,
+          "areaId": 7,
+          "name": "ブロック71"
+        },
+        {
+          "id": 72,
+          "areaId": 7,
+          "name": "ブロック72"
+        },
+        {
+          "id": 73,
+          "areaId": 7,
+          "name": "ブロック73"
+        },
+        {
+          "id": 74,
+          "areaId": 7,
+          "name": "ブロック74"
+        },
+        {
+          "id": 75,
+          "areaId": 7,
+          "name": "ブロック75"
+        },
+        {
+          "id": 76,
+          "areaId": 7,
+          "name": "ブロック76"
+        },
+        {
           "id": 77,
-          "name": "須山1区",
-          "areaId": 4
+          "areaId": 7,
+          "name": "ブロック77"
         },
         {
           "id": 78,
-          "name": "須山2区",
-          "areaId": 4
+          "areaId": 7,
+          "name": "ブロック78"
         },
         {
           "id": 79,
-          "name": "須山3区",
-          "areaId": 4
-        },
+          "areaId": 7,
+          "name": "ブロック79"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "municipalityId": 1,
+      "name": "エリア8",
+      "regions": [
         {
           "id": 80,
-          "name": "須山4区",
-          "areaId": 4
+          "areaId": 8,
+          "name": "ブロック80"
         },
         {
           "id": 81,
-          "name": "須山6区",
-          "areaId": 4
+          "areaId": 8,
+          "name": "ブロック81"
+        },
+        {
+          "id": 82,
+          "areaId": 8,
+          "name": "ブロック82"
+        },
+        {
+          "id": 83,
+          "areaId": 8,
+          "name": "ブロック83"
+        },
+        {
+          "id": 84,
+          "areaId": 8,
+          "name": "ブロック84"
+        },
+        {
+          "id": 85,
+          "areaId": 8,
+          "name": "ブロック85"
+        },
+        {
+          "id": 86,
+          "areaId": 8,
+          "name": "ブロック86"
+        },
+        {
+          "id": 87,
+          "areaId": 8,
+          "name": "ブロック87"
+        },
+        {
+          "id": 88,
+          "areaId": 8,
+          "name": "ブロック88"
+        },
+        {
+          "id": 89,
+          "areaId": 8,
+          "name": "ブロック89"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "municipalityId": 1,
+      "name": "エリア9",
+      "regions": [
+        {
+          "id": 90,
+          "areaId": 9,
+          "name": "ブロック90"
+        },
+        {
+          "id": 91,
+          "areaId": 9,
+          "name": "ブロック91"
+        },
+        {
+          "id": 92,
+          "areaId": 9,
+          "name": "ブロック92"
+        },
+        {
+          "id": 93,
+          "areaId": 9,
+          "name": "ブロック93"
+        },
+        {
+          "id": 94,
+          "areaId": 9,
+          "name": "ブロック94"
+        },
+        {
+          "id": 95,
+          "areaId": 9,
+          "name": "ブロック95"
+        },
+        {
+          "id": 96,
+          "areaId": 9,
+          "name": "ブロック96"
+        },
+        {
+          "id": 97,
+          "areaId": 9,
+          "name": "ブロック97"
+        },
+        {
+          "id": 98,
+          "areaId": 9,
+          "name": "ブロック98"
+        },
+        {
+          "id": 99,
+          "areaId": 9,
+          "name": "ブロック99"
         }
       ]
     }

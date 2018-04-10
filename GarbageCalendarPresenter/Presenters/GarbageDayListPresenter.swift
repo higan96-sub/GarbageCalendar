@@ -1,4 +1,4 @@
-//
+ //
 //  GarbagesPresenter.swift
 //  GarbageDayListPresenter
 //
@@ -24,7 +24,7 @@ public class GarbageDayListPresenter {
     private let alarmSettingRepository: AlarmSettingRepositoryProtocol
     private let view: GarbageDayListView
     private let formatter = DateFormatter()
-    private let municipality: Municipality
+    private let municipality: Municipality?
     
     public init(view: GarbageDayListView) {
         self.view = view
@@ -32,7 +32,7 @@ public class GarbageDayListPresenter {
         regionRepository = RegionRepositoryMock()
         alarmSettingRepository = AlarmSettingRepositoryMock()
         let municipalityRepository = MunicipalityRepositoryMock()
-        municipality = municipalityRepository.fetch(id: 999999)!
+        municipality = municipalityRepository.fetch(id: 999999)
         formatter.setTemplate(.date)
     }
     
@@ -80,6 +80,7 @@ public class GarbageDayListPresenter {
         case .region:
             return myRegion?.name
         case .alarm:
+            guard let municipality = municipality else { return nil }
             if alarmSettingRepository.fetchAlarmSetting(municipality: municipality).isOn {
                 return NSLocalizedString("enabled", comment: "")
             }

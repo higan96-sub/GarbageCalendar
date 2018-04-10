@@ -12,7 +12,7 @@ public class MunicipalityRepositoryMock: MunicipalityRepositoryProtocol {
     public init() {}
     let key = "debug-municipality_key"
     
-    public func fetch(id: Int) -> Municipality? {        
+    public func fetch(id: Int) -> Municipality? {
         var municipality: Municipality?
         let url = Bundle.main.url(forResource: "municipality", withExtension: "json")!
         do {
